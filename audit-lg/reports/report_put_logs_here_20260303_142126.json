@@ -1,0 +1,55 @@
+{
+    "file": "audit-lg/put_logs_here.txt",
+    "timestamp": "2026-03-03 14:21:26.960069",
+    "metrics": {
+        "total": 1883,
+        "attacks": 9
+    },
+    "incidents": [
+        {
+            "line": 203,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:51]   /usr/bin/basename                               [ OK ]"
+        },
+        {
+            "line": 204,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:51]   /usr/bin/bash                                   [ OK ]"
+        },
+        {
+            "line": 282,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:55]   /usr/bin/sh                                     [ OK ]"
+        },
+        {
+            "line": 283,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:55]   /usr/bin/sha1sum                                [ OK ]"
+        },
+        {
+            "line": 285,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:55]   /usr/bin/sha256sum                              [ OK ]"
+        },
+        {
+            "line": 286,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:55]   /usr/bin/sha384sum                              [ OK ]"
+        },
+        {
+            "line": 287,
+            "type": "\ud83d\udea8 RCE/Command Injection",
+            "content": "[17:58:55]   /usr/bin/sha512sum                              [ OK ]"
+        },
+        {
+            "line": 1811,
+            "type": "\ud83d\udea8 Brute Force Attempt",
+            "content": "[17:59:58] Info: Found password file: /etc/passwd"
+        },
+        {
+            "line": 1813,
+            "type": "\ud83d\udea8 Path Traversal",
+            "content": "[17:59:58] Info: Found shadow file: /etc/shadow"
+        }
+    ]
+}
